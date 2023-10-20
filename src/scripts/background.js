@@ -6,7 +6,7 @@ chrome.alarms.create({
 function showNotification() {
   this.registration.showNotification('Timer Extension', {
     body: 'Teste Notificação',
-    icon: '../images/icon.png ',
+    icon: '../../images/icon.png ',
   });
 }
 
