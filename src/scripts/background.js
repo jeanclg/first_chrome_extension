@@ -1,4 +1,3 @@
-/* eslint-disable arrow-parens */
 chrome.alarms.create({
   periodInMinutes: 1 / 60, // 1 second
 });

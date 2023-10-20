@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable arrow-parens */
 const elements = {
   nameInput: document.getElementById('name-input'),
   timerInput: document.getElementById('timer-input'),
@@ -7,7 +5,10 @@ const elements = {
 };
 
 function saveSettings() {
-  chrome.storage.sync.set({ name: elements.nameInput.value, notificationTimer: elements.timerInput.value });
+  chrome.storage.sync.set({
+    name: elements.nameInput.value,
+    notificationTimer: elements.timerInput.value,
+  });
 }
 
 function loadSettings() {

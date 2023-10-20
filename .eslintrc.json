@@ -21,6 +21,7 @@
     "no-plusplus": "off",
     "radix": "off",
     "array-callback-return": "off",
-    "no-console":"off"
+    "no-console":"off",
+    "arrow-parens":"off"
   }
 }

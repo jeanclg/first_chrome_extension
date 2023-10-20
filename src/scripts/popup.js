@@ -1,4 +1,3 @@
-/* eslint-disable arrow-parens */
 const elements = {
   timeElement: document.getElementById('time'),
   nameElement: document.getElementById('name'),
