@@ -1,0 +1,48 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.timer {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #005eae;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    display: block;
+    margin: 5px auto;
+  }
+}
